@@ -21,9 +21,9 @@ In order to use positioning it is required to have
  
  Strength) fingerprints from all access points 
 
-These data are supposed to be fetched from a remote storage, preferably NoSQL-based document-oriented DB to 
- 
-enhance data availability and make the program better fit real-time constraints.
+These data are supposed to be fetched on-the-fly from a remote storage, preferably NoSQL-based document-oriented
+
+DB to enhance data availability and make the program better fit real-time constraints.
 
 Prior to using the map images it is necessary to tune the program so that it works correctly with dimensions of 
 
