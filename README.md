@@ -13,13 +13,17 @@ In order to use positioning it is required to have
 
 -image files representing map(s) of indoor location(s) so that the program may automatically switch from 
 
- one map to the other as the user walks indoors
+ one map to the other as the user walks indoors; when the user leaves outdoors away from map-covered area, the 
+ 
+ program launches GPS-based outdoor positioning and stays in that mode until the user is back indoors
  
 -list of access point MACs with radio signals reaching at least one out of all indoor locations mentioned above
 
 -radiomap consisting of 2-D points over all indoor locations and having information about RSS (Received Signal
  
  Strength) fingerprints from all access points 
+ 
+Examples are included in the project's main trunk.
 
 These data are supposed to be fetched on-the-fly from a remote storage, preferably NoSQL-based document-oriented
 
