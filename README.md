@@ -1,9 +1,9 @@
 indoorpos1
 ==========
 
-Basement project for Android-based indoor positioning system
+Basement Android project for fingerprint-based indoor positioning system
 
-Interpolation mechanism is embedded within broadcast receiver called WiFiScanReceiver
+Interpolation mechanism is embedded within broadcast receiver called WiFiScanReceiver.
 
 Simple interpolation based on Euclidean distance has been used as an initial template which may further be
 
@@ -21,6 +21,11 @@ In order to use positioning it is required to have
  
  Strength) fingerprints from all access points 
 
+These data are supposed to be fetched from a remote storage, preferably NoSQL-based document-oriented DB to 
+ 
+enhance data availability and make the program better fit real-time constraints.
+
 Prior to using the map images it is necessary to tune the program so that it works correctly with dimensions of 
 
-Android device and properly shows user's current position on the screen
+Android device and properly shows user's current position on the screen.
+
