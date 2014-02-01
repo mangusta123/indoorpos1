@@ -17,11 +17,11 @@ In order to use positioning it is required to have
  
  the  program launches GPS-based outdoor positioning and stays in that mode until the user is back indoors
  
--list of access point MACs with radio signals reaching at least one out of all indoor locations mentioned above
+-list of access point (AP) MACs with radio signals reaching at least one out of all indoor locations mentioned above
 
 -radiomap consisting of 2-D points over all indoor locations and having information about RSS (Received Signal
  
- Strength) fingerprints from all access points 
+ Strength) fingerprints from each AP at each of those points
  
 Examples of these file have been included in the project's main trunk (see N5-ap.txt, N5-radioMap.txt, n5_2f.png)
 
