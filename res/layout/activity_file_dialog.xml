@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/mapDialogButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/rmapDialogButton"
+        android:layout_marginTop="50dp"
+        android:text="Choose Map ..." />
+
+    <Button
+        android:id="@+id/rmapDialogButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/mapDialogButton"
+        android:layout_marginTop="33dp"
+        android:text="Choose Radiomap ..." />
+
+    <TextView
+        android:id="@+id/rmapStatus"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/rmapDialogButton"
+        android:text="no file" />
+
+    <TextView
+        android:id="@+id/mapStatus"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/mapDialogButton"
+        android:text="no file" />
+
+    <Button
+        android:id="@+id/apDialogButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/rmapDialogButton"
+        android:layout_below="@+id/rmapDialogButton"
+        android:layout_marginTop="58dp"
+        android:text="Choose AP list ..." />
+
+    <TextView
+        android:id="@+id/apStatus"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/apDialogButton"
+        android:text="no file" />
+
+    <Button
+        android:id="@+id/startPosit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/apStatus"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="Start Positioning" />
+
+</RelativeLayout>
