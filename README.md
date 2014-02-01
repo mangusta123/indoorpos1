@@ -23,7 +23,7 @@ In order to use positioning it is required to have
  
  Strength) fingerprints from all access points 
  
-Examples are included in the project's main trunk.
+Examples of these file have been included in the project's main trunk (see N5-ap.txt, N5-radioMap.txt, n5_2f.png)
 
 These data are supposed to be fetched on-the-fly from a remote storage, preferably NoSQL-based document-oriented
 
