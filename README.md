@@ -21,7 +21,7 @@ In order to use positioning it is required to have
 
 -radiomap consisting of 2-D points over all indoor locations and having information about RSS (Received Signal
  
- Strength) fingerprints from each AP at each of those points
+ Strength) fingerprints from every AP at each of those points
  
 Examples of these file have been included in the project's main trunk (see N5-ap.txt, N5-radioMap.txt, n5_2f.png)
 
