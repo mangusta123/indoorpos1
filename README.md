@@ -13,9 +13,9 @@ In order to use positioning it is required to have
 
 -image files representing map(s) of indoor location(s) so that the program may automatically switch from 
 
- one map to the other as the user walks indoors; when the user leaves outdoors away from map-covered area, the 
+ one map to the other as the user walks indoors; when the user leaves outdoors away from map-covered area,
  
- program launches GPS-based outdoor positioning and stays in that mode until the user is back indoors
+ the  program launches GPS-based outdoor positioning and stays in that mode until the user is back indoors
  
 -list of access point MACs with radio signals reaching at least one out of all indoor locations mentioned above
 
