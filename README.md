@@ -25,11 +25,11 @@ In order to use positioning it is required to have
  
 Examples of these file have been included in the project's main trunk (see N5-ap.txt, N5-radioMap.txt, n5_2f.png)
 
-These data are supposed to be fetched on-the-fly from a remote storage, preferably NoSQL-based document-oriented
+These data are supposed to be fetched on-the-fly from a remote storage, preferably NoSQL-based 
 
-DB to enhance data availability and make the program better fit real-time constraints.
+document-oriented DB to enhance data availability and make the program better fit real-time constraints.
 
-Prior to using the map images it is necessary to tune the program so that it works correctly with dimensions of 
+Prior to using the map images it is necessary to tune the program so that it works correctly with dimensions
 
-Android device and properly shows user's current position on the screen.
+of Android device and properly shows user's current position on the screen.
 
