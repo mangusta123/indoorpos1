@@ -27,7 +27,7 @@ fingerprints from every AP at each of those points
  
 Examples of these file have been included in the project's main trunk (see n5_2f.png, N5-ap.txt, N5-radioMap.txt)
 
-These data are supposed to be fetched on-the-fly from a remote storage, preferably NoSQL-based 
+These data are supposed to be fetched on-the-fly in JSON format from a remote storage, preferably NoSQL-based 
 
 document-oriented DB to enhance data availability and make the program better fit real-time constraints.
 
