@@ -19,7 +19,7 @@ In order to use positioning it is required to have
  
 -list of access point (AP) MACs with radio signals reaching at least one out of all indoor locations mentioned above
 
--radiomap consisting of 2-D points over all indoor locations (can further be extended to 3-D i.e. by considering 
+-radiomap consisting of 2-D points over all indoor locations (can further be extended to 3-D by considering 
 
 building floors and net georaphic height of landscape) and keeping information about RSS (Received Signal Strength)
 
